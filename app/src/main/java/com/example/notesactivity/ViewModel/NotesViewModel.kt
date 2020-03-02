@@ -2,12 +2,10 @@ package com.example.notesactivity.ViewModel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.example.notesactivity.Repository.NotesEntity
 import com.example.notesactivity.Repository.Repository
 import com.example.notesactivity.Repository.RepositoryInterface
-import io.reactivex.Completable
 import io.reactivex.disposables.CompositeDisposable
 
 class NotesViewModel(application: Application) : AndroidViewModel(application) {

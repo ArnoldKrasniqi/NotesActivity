@@ -1,5 +1,6 @@
 package com.example.notesactivity
 
+import android.app.Application
 import com.example.notesactivity.Repository.NotesEntity
 import com.example.notesactivity.Repository.Repository
 import com.example.notesactivity.ViewModel.NotesViewModel
@@ -34,7 +35,7 @@ class ExampleUnitTest {
     @Before
     fun setup(){
 
-        model = NotesViewModel(repository)
+        model = NotesViewModel(application = Application())
 
     }
 
@@ -42,7 +43,7 @@ class ExampleUnitTest {
     @Test
     fun`when getNotes is called all the notes are returned as a list`(){
         //Given
-        Mockito.`when`(model.)
+        Mockito.`when`(model)
         //When
 
         //Then
