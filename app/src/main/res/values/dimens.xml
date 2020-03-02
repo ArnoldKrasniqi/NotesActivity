@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_text_size_width">363dp</dimen>
+    <dimen name="edit_text_size_height">352dp</dimen>
+    <dimen name="card_height">50dp</dimen>
+    <dimen name="card_margin_bottom">8dp</dimen>
+</resources>

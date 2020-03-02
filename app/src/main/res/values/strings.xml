@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NotesActivity</string>
+    <string name="enter_note_here">Enter Note here!</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="error_message">Oh no, Something went wrong!</string>
+</resources>
